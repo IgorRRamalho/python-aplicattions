@@ -1,0 +1,12 @@
+{
+    "name": "tune-sync",
+    "version": "1.0.0",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "devDependencies": {
+      "electron": "^24.0.0"
+    }
+  }
+  

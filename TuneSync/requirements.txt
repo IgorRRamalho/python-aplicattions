@@ -1,0 +1,6 @@
+# Dependências do Python
+
+spotipy==2.19.0     # Biblioteca para integração com o Spotify
+requests==2.31.0    # Para fazer requisições HTTP (Apple Music API)
+PyJWT==2.6.0        # Para gerar tokens JWT (necessário para autenticação na Apple Music)
+
