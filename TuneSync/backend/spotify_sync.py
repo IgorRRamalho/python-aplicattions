@@ -16,7 +16,7 @@ class SpotifySync:
             client_id=client_id,
             client_secret=client_secret,
             redirect_uri=redirect_uri,
-            scope="playlist-read-private playlist-modify-private playlist-modify-public"
+            scope="playlist-read-private playlist-modify-private playlist-modify-public user-read-private"
         ))
 
     def get_playlists(self):
@@ -43,3 +43,18 @@ class SpotifySync:
             print(f"Faixas adicionadas à playlist {playlist_id}.")
         except Exception as e:
             print(f"Erro ao adicionar faixas à playlist: {e}")
+
+    def get_user_profile(self):
+        """
+        Obtém o perfil do usuário atual.
+
+        :return: Um dicionário contendo o perfil do usuário, incluindo o nome.
+        """
+        try:
+            return self.sp.current_user()
+        except Exception as e:
+            print(f"Erro ao obter perfil do usuário: {e}")
+            return None
+       
+            
+            

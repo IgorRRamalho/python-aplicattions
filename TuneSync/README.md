@@ -1,6 +1,6 @@
-# Tune Sync
+# Tune Sync(Descontinuado)
 
-Este é um projeto que sincroniza playlists entre as contas do **Spotify** e **Apple Music**. O objetivo é garantir que as playlists existentes em uma plataforma sejam replicadas na outra, adicionando músicas faltantes e criando playlists que ainda não existam. O projeto utiliza **Electron** para criar uma interface gráfica, enquanto o backend é desenvolvido em **Python**.
+Este é um projeto que sincroniza playlists entre as contas do **Spotify** e **Apple Music**. O objetivo é garantir que as playlists existentes em uma plataforma sejam replicadas na outra, adicionando músicas faltantes e criando playlists que ainda não existam. O projeto utiliza **Electron** para criar uma interface gráfica, enquanto o backend é desenvolvido em **Python**.(Projeto descontinuado, apple exige assinatura no **Apple Developer Program** para fazer requests na api)
 
 ## Funcionalidades
 
